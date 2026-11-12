@@ -1,0 +1,32 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "installed_bytes": 129814472,
+    "url": ""
+  },
+  "built_at": "2026-11-02T02:33:36+00:00",
+  "built_with": {
+    "clang": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "os": "27.0.1"
+  },
+  "bundle_name": "mysql-8.0.40-arm64",
+  "defaults": {},
+  "extensions": [],
+  "healthcheck": {
+    "cmd": [
+      "bin/mysqld",
+      "--version"
+    ],
+    "expect": "8.0.40"
+  },
+  "kind": "mysql",
+  "license": "GPL-2.0-only",
+  "min_macos": "14.0",
+  "paths": {
+    "mysql": "bin/mysql",
+    "mysqld": "bin/mysqld"
+  },
+  "php_api": null,
+  "schema": 2,
+  "version": "8.0.40"
+}

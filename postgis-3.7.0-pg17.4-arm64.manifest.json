@@ -1,0 +1,25 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 4570887,
+    "installed_bytes": 48275804,
+    "sha256": "201acdf77ed5e0ee8eeaaf3eabdfc55ea7fb34821191088716b816bcce07c7f2",
+    "url": "postgis-3.7.0-pg17.4-arm64.tar.zst"
+  },
+  "built_at": "2026-11-06T02:07:45+00:00",
+  "built_with": {
+    "clang": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "os": "27.0.1"
+  },
+  "bundle_name": "postgis-3.7.0-pg17.4-arm64",
+  "defaults": {},
+  "extensions": [],
+  "healthcheck": null,
+  "kind": "postgis",
+  "license": null,
+  "min_macos": "14.0",
+  "paths": {},
+  "php_api": null,
+  "schema": 2,
+  "version": "3.7.0"
+}

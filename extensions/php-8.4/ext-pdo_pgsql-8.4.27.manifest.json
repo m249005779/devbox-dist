@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 120202,
+    "sha256": "7c7cce7e6fa7a18c279ebc3d2ff5c6e50571f5f5a3c6458acbda3c49b18ecd05",
+    "url": "ext-pdo_pgsql-8.4.27-php8.4-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "pdo_pgsql",
+  "php_api": "20240924",
+  "php_version": "8.4.27",
+  "schema": 2,
+  "version": "8.4.27"
+}

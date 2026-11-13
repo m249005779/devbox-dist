@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 1675279,
+    "sha256": "15490579c245c98e2474f47965a023e2c849879cbb3cdd0adff92e277195c69f",
+    "url": "ext-imagick-3.8.0-php8.3-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "imagick",
+  "php_api": "20230831",
+  "php_version": "8.3.36",
+  "schema": 2,
+  "version": "3.8.0"
+}

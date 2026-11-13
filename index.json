@@ -1,0 +1,572 @@
+{
+  "extensions": [
+    {
+      "manifest": "extensions/php-7.4/ext-event-3.1.4.manifest.json",
+      "name": "event",
+      "php_api": "20190902",
+      "version": "3.1.4"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-gd-7.4.33.manifest.json",
+      "name": "gd",
+      "php_api": "20190902",
+      "version": "7.4.33"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20190902",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20190902",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20190902",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-pdo_pgsql-7.4.33.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20190902",
+      "version": "7.4.33"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-pgsql-7.4.33.manifest.json",
+      "name": "pgsql",
+      "php_api": "20190902",
+      "version": "7.4.33"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20190902",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-swoole-4.8.13.manifest.json",
+      "name": "swoole",
+      "php_api": "20190902",
+      "version": "4.8.13"
+    },
+    {
+      "manifest": "extensions/php-7.4/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20190902",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-event-3.1.4.manifest.json",
+      "name": "event",
+      "php_api": "20200930",
+      "version": "3.1.4"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-gd-8.0.30.manifest.json",
+      "name": "gd",
+      "php_api": "20200930",
+      "version": "8.0.30"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20200930",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20200930",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20200930",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-pdo_pgsql-8.0.30.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20200930",
+      "version": "8.0.30"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-pgsql-8.0.30.manifest.json",
+      "name": "pgsql",
+      "php_api": "20200930",
+      "version": "8.0.30"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20200930",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-swoole-5.1.7.manifest.json",
+      "name": "swoole",
+      "php_api": "20200930",
+      "version": "5.1.7"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20200930",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.0/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20200930",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-event-3.1.4.manifest.json",
+      "name": "event",
+      "php_api": "20210902",
+      "version": "3.1.4"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-gd-8.1.34.manifest.json",
+      "name": "gd",
+      "php_api": "20210902",
+      "version": "8.1.34"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20210902",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20210902",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20210902",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-pdo_pgsql-8.1.34.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20210902",
+      "version": "8.1.34"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-pgsql-8.1.34.manifest.json",
+      "name": "pgsql",
+      "php_api": "20210902",
+      "version": "8.1.34"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20210902",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-swoole-6.0.2.manifest.json",
+      "name": "swoole",
+      "php_api": "20210902",
+      "version": "6.0.2"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20210902",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.1/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20210902",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-event-3.1.4.manifest.json",
+      "name": "event",
+      "php_api": "20220829",
+      "version": "3.1.4"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-gd-8.2.35.manifest.json",
+      "name": "gd",
+      "php_api": "20220829",
+      "version": "8.2.35"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20220829",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20220829",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20220829",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-pdo_pgsql-8.2.35.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20220829",
+      "version": "8.2.35"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-pgsql-8.2.35.manifest.json",
+      "name": "pgsql",
+      "php_api": "20220829",
+      "version": "8.2.35"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20220829",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-swoole-6.0.2.manifest.json",
+      "name": "swoole",
+      "php_api": "20220829",
+      "version": "6.0.2"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20220829",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.2/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20220829",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-event-3.1.4.manifest.json",
+      "name": "event",
+      "php_api": "20230831",
+      "version": "3.1.4"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-gd-8.3.36.manifest.json",
+      "name": "gd",
+      "php_api": "20230831",
+      "version": "8.3.36"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20230831",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20230831",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-mongodb-2.5.5.manifest.json",
+      "name": "mongodb",
+      "php_api": "20230831",
+      "version": "2.5.5"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20230831",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-pdo_pgsql-8.3.36.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20230831",
+      "version": "8.3.36"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-pgsql-8.3.36.manifest.json",
+      "name": "pgsql",
+      "php_api": "20230831",
+      "version": "8.3.36"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20230831",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-swoole-6.0.2.manifest.json",
+      "name": "swoole",
+      "php_api": "20230831",
+      "version": "6.0.2"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20230831",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.3/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20230831",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-gd-8.4.27.manifest.json",
+      "name": "gd",
+      "php_api": "20240924",
+      "version": "8.4.27"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-igbinary-3.2.16.manifest.json",
+      "name": "igbinary",
+      "php_api": "20240924",
+      "version": "3.2.16"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-imagick-3.8.0.manifest.json",
+      "name": "imagick",
+      "php_api": "20240924",
+      "version": "3.8.0"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20240924",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-pdo_pgsql-8.4.27.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20240924",
+      "version": "8.4.27"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-pgsql-8.4.27.manifest.json",
+      "name": "pgsql",
+      "php_api": "20240924",
+      "version": "8.4.27"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20240924",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-swoole-6.0.2.manifest.json",
+      "name": "swoole",
+      "php_api": "20240924",
+      "version": "6.0.2"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20240924",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.4/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20240924",
+      "version": "1.22.8"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-gd-8.5.12.manifest.json",
+      "name": "gd",
+      "php_api": "20250925",
+      "version": "8.5.12"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-pcov-1.0.12.manifest.json",
+      "name": "pcov",
+      "php_api": "20250925",
+      "version": "1.0.12"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-pdo_pgsql-8.5.12.manifest.json",
+      "name": "pdo_pgsql",
+      "php_api": "20250925",
+      "version": "8.5.12"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-pgsql-8.5.12.manifest.json",
+      "name": "pgsql",
+      "php_api": "20250925",
+      "version": "8.5.12"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-redis-6.3.0.manifest.json",
+      "name": "redis",
+      "php_api": "20250925",
+      "version": "6.3.0"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-xdebug-3.5.3.manifest.json",
+      "name": "xdebug",
+      "php_api": "20250925",
+      "version": "3.5.3"
+    },
+    {
+      "manifest": "extensions/php-8.5/ext-zip-1.22.8.manifest.json",
+      "name": "zip",
+      "php_api": "20250925",
+      "version": "1.22.8"
+    }
+  ],
+  "generated_at": "2026-11-13T01:42:03+00:00",
+  "runtimes": [
+    {
+      "kind": "mysql",
+      "manifest": "mysql-8.0.40-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.0.40"
+    },
+    {
+      "kind": "mysql",
+      "manifest": "mysql-8.4.11-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.4.11"
+    },
+    {
+      "kind": "nginx",
+      "manifest": "nginx-1.30.6-arm64.manifest.json",
+      "php_api": null,
+      "version": "1.30.6"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-7.4.33-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "7.4.33"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-7.4.33-runtime-arm64.manifest.json",
+      "php_api": "20190902",
+      "version": "7.4.33"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.0.30-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.0.30"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.0.30-runtime-arm64.manifest.json",
+      "php_api": "20200930",
+      "version": "8.0.30"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.1.34-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.1.34"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.1.34-runtime-arm64.manifest.json",
+      "php_api": "20210902",
+      "version": "8.1.34"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.2.35-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.2.35"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.2.35-runtime-arm64.manifest.json",
+      "php_api": "20220829",
+      "version": "8.2.35"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.3.36-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.3.36"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.3.36-runtime-arm64.manifest.json",
+      "php_api": "20230831",
+      "version": "8.3.36"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.4.27-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.4.27"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.4.27-runtime-arm64.manifest.json",
+      "php_api": "20240924",
+      "version": "8.4.27"
+    },
+    {
+      "kind": "php-dev",
+      "manifest": "php-8.5.12-dev-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.5.12"
+    },
+    {
+      "kind": "php",
+      "manifest": "php-8.5.12-runtime-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.5.12"
+    },
+    {
+      "kind": "postgis",
+      "manifest": "postgis-3.7.0-pg14.24-arm64.manifest.json",
+      "php_api": null,
+      "version": "3.7.0"
+    },
+    {
+      "kind": "postgis",
+      "manifest": "postgis-3.7.0-pg17.4-arm64.manifest.json",
+      "php_api": null,
+      "version": "3.7.0"
+    },
+    {
+      "kind": "postgresql",
+      "manifest": "postgresql-14.24-arm64.manifest.json",
+      "php_api": null,
+      "version": "14.24"
+    },
+    {
+      "kind": "postgresql",
+      "manifest": "postgresql-17.4-arm64.manifest.json",
+      "php_api": null,
+      "version": "17.4"
+    },
+    {
+      "kind": "redis",
+      "manifest": "redis-8.10.3-arm64.manifest.json",
+      "php_api": null,
+      "version": "8.10.3"
+    }
+  ],
+  "schema": 2
+}

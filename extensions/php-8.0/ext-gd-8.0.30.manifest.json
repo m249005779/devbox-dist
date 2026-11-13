@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 844315,
+    "sha256": "c8654defeb4bc1e5af21f0830ec623b17922cbb8b19007fe01c2871705518fdb",
+    "url": "ext-gd-8.0.30-php8.0-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "gd",
+  "php_api": "20200930",
+  "php_version": "8.0.30",
+  "schema": 2,
+  "version": "8.0.30"
+}

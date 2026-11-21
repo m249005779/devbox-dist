@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 154523,
+    "sha256": "438ea9229ad10e3920ffdb008030cdbe11b6124773abb84ae253aa35cd27562c",
+    "url": "ext-redis-6.3.0-php7.4-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "redis",
+  "php_api": "20190902",
+  "php_version": "7.4.33",
+  "schema": 2,
+  "version": "6.3.0"
+}

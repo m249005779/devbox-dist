@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 127482,
+    "sha256": "f466ac8c66d9bdec142a45a64d9d2ce949e5723b7bd9df2593433c410a98b1a8",
+    "url": "ext-event-3.2.0-php8.5-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "event",
+  "php_api": "20250925",
+  "php_version": "8.5.12",
+  "schema": 2,
+  "version": "3.2.0"
+}

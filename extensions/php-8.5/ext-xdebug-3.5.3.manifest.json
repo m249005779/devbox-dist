@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 118817,
+    "sha256": "09c5cb4d5a89de9bd66239cb5be77ebaf2905cd0de1c16ab0c495d6ee8c0ab24",
+    "url": "ext-xdebug-3.5.3-php8.5-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "xdebug",
+  "php_api": "20250925",
+  "php_version": "8.5.12",
+  "schema": 2,
+  "version": "3.5.3"
+}

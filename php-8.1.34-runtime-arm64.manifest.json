@@ -1,0 +1,43 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 5198473,
+    "installed_bytes": 37741773,
+    "sha256": "ef82bc15f3d7ceac2b5bcae28ad59286600780cb11128d1cfb2ba9d1c2fc969d",
+    "url": "php-8.1.34-runtime-arm64.tar.zst"
+  },
+  "built_at": "2026-11-04T06:24:56+00:00",
+  "built_with": {
+    "clang": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "os": "27.0.1"
+  },
+  "bundle_name": "php-8.1.34-runtime-arm64",
+  "defaults": {
+    "date_timezone": "Asia/Shanghai",
+    "memory_limit": "512M",
+    "post_max_size": "64M",
+    "upload_max_filesize": "64M"
+  },
+  "extensions": [
+    "opcache"
+  ],
+  "healthcheck": {
+    "cmd": [
+      "bin/php",
+      "-r",
+      "echo PHP_VERSION;"
+    ],
+    "expect": "8.1.34"
+  },
+  "kind": "php",
+  "license": "PHP-3.01",
+  "min_macos": "14.0",
+  "paths": {
+    "ini": "etc/php.ini",
+    "php": "bin/php",
+    "php_fpm": "sbin/php-fpm"
+  },
+  "php_api": "20210902",
+  "schema": 2,
+  "version": "8.1.34"
+}

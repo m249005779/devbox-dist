@@ -1,0 +1,14 @@
+{
+  "arch": "arm64",
+  "artifact": {
+    "compressed_bytes": 55618,
+    "sha256": "dbdc92cb7b5e47343cc6dcd159f651ba312acff6319161a0508f4e3bccaab551",
+    "url": "ext-zip-1.22.8-php8.0-arm64.tar.zst"
+  },
+  "kind": "php-extension",
+  "name": "zip",
+  "php_api": "20200930",
+  "php_version": "8.0.30",
+  "schema": 2,
+  "version": "1.22.8"
+}

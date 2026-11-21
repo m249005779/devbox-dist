@@ -1,0 +1,84 @@
+{
+  "extensions": [
+    {
+      "artifact": "ext-event-3.1.4-php8.0-arm64.tar.zst",
+      "name": "event",
+      "sha256": "e79cfbc6bd52971fcc52a309ea77efc268ea6775c1abbf94183f70ffc0499119",
+      "size": 127108,
+      "version": "3.1.4"
+    },
+    {
+      "artifact": "ext-gd-8.0.30-php8.0-arm64.tar.zst",
+      "name": "gd",
+      "sha256": "6218dc4ef08196d746041464d01b878346d1b98cfeedfe5a2a2bd63d14c18408",
+      "size": 755379,
+      "version": "8.0.30"
+    },
+    {
+      "artifact": "ext-igbinary-3.2.16-php8.0-arm64.tar.zst",
+      "name": "igbinary",
+      "sha256": "da48674db85504aeb0ee1b82797b97d0cdbd63a7d1094296265fece2aae89c59",
+      "size": 22613,
+      "version": "3.2.16"
+    },
+    {
+      "artifact": "ext-imagick-3.8.0-php8.0-arm64.tar.zst",
+      "name": "imagick",
+      "sha256": "26026b5f666f23d255db6bedc693bdc485087606b62172d944b67beeda371066",
+      "size": 1675574,
+      "version": "3.8.0"
+    },
+    {
+      "artifact": "ext-pcov-1.0.12-php8.0-arm64.tar.zst",
+      "name": "pcov",
+      "sha256": "d26fa7f44deadc3ff99c9f1f86c934908a8cc71bb6e70fe683cb2ed7e498c16e",
+      "size": 10073,
+      "version": "1.0.12"
+    },
+    {
+      "artifact": "ext-pdo_pgsql-8.0.30-php8.0-arm64.tar.zst",
+      "name": "pdo_pgsql",
+      "sha256": "90da648b47eaaa24c71414ee66f32655208ff772198fbaa8e8bf1dc87c63bd93",
+      "size": 117094,
+      "version": "8.0.30"
+    },
+    {
+      "artifact": "ext-pgsql-8.0.30-php8.0-arm64.tar.zst",
+      "name": "pgsql",
+      "sha256": "6f4f4f09c05dbfba9728017f29dda558c9c2abdb223c9abaf40ff9b35050f258",
+      "size": 135010,
+      "version": "8.0.30"
+    },
+    {
+      "artifact": "ext-redis-6.3.0-php8.0-arm64.tar.zst",
+      "name": "redis",
+      "sha256": "3735c7275d004d29fff9cb2cda9879e0bbd5136bcf347439529003ffb6d80b15",
+      "size": 156644,
+      "version": "6.3.0"
+    },
+    {
+      "artifact": "ext-swoole-5.1.7-php8.0-arm64.tar.zst",
+      "name": "swoole",
+      "sha256": "b956a42b1a20625fbf92e18d22d4e5a396174489d744367dd93881b602ff2547",
+      "size": 655324,
+      "version": "5.1.7"
+    },
+    {
+      "artifact": "ext-xdebug-3.5.3-php8.0-arm64.tar.zst",
+      "name": "xdebug",
+      "sha256": "183d52aa4f2110b9cbdc6eba29f9f1fb16551f9e11a957b8f38146a1030e5e4c",
+      "size": 116675,
+      "version": "3.5.3"
+    },
+    {
+      "artifact": "ext-zip-1.22.8-php8.0-arm64.tar.zst",
+      "name": "zip",
+      "sha256": "dbdc92cb7b5e47343cc6dcd159f651ba312acff6319161a0508f4e3bccaab551",
+      "size": 55618,
+      "version": "1.22.8"
+    }
+  ],
+  "php_api": "20200930",
+  "php_version": "8.0.30",
+  "schema": 1
+}
